@@ -6,18 +6,13 @@ from datetime import datetime
 # 配置信息 - 请修改为你的信息
 GITHUB_USERNAME = "your_username"
 REPO_NAME = "your_repo"
-GITHUB_TOKEN = "your_github_personal_token_here"  # 建议使用环境变量或配置文件存储
+GITHUB_TOKEN = "your_github_personal_token_here"
 BRANCH = "main"
 COMMIT_MESSAGE = f"Auto upload: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
 
 # 忽略列表
 IGNORE_FILES = [
-    ".git",
-    ".DS_Store",
-    "github_uploader.py",  # 通常不应该上传自身
-    ".gitignore",
-    "LICENSE",
-    "README.md"
+    
 ]
 
 # GitHub API 基础URL
