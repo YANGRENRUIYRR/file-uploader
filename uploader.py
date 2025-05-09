@@ -1,7 +1,7 @@
 import os
 import base64
 import requests # pip install requests
-from datetime import datetime
+from datetime import datetime # pip install datetime
 
 # 配置信息 - 请修改为你的信息
 GITHUB_USERNAME = "your_username"
