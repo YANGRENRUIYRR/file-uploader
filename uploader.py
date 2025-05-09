@@ -1,6 +1,6 @@
 import os
 import base64
-import requests
+import requests # pip install requests
 from datetime import datetime
 
 # 配置信息 - 请修改为你的信息
